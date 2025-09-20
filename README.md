@@ -1,2 +1,6 @@
-# python-pattern-border
-A fun Python script that prints a square pattern of size n × n with a border made of emojis (💖).
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        if i==0 or i==n-1 or j==0 or j==n-1:
+            print('💖',end=' ')
+    print()
